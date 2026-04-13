@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Music Store Showcase</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Music Store Showcase</p>
+        <h1>Seeded catalog preview</h1>
+      </div>
+      <p class="topbar-note">Server-generated songs, covers, likes, and preview audio.</p>
+    </header>
+
+    <main class="app-panel">
+      <section class="toolbar" aria-label="Controls">
+        <label class="field">
+          <span>Language</span>
+          <select id="localeSelect"></select>
+        </label>
+
+        <label class="field seed-field">
+          <span>Seed</span>
+          <div class="seed-input-wrap">
+            <input id="seedInput" type="number" min="0" step="1" value="58933423">
+            <button id="randomSeedButton" type="button" class="ghost-button">Shuffle</button>
+          </div>
+        </label>
+
+        <label class="field likes-field">
+          <span>Likes <strong id="likesValue">3.7</strong></span>
+          <input id="likesInput" type="range" min="0" max="10" step="0.1" value="3.7">
+        </label>
+
+        <div class="view-toggle" role="tablist" aria-label="View mode">
+          <button id="tableViewButton" class="view-button active" type="button" role="tab" aria-selected="true">Table</button>
+          <button id="galleryViewButton" class="view-button" type="button" role="tab" aria-selected="false">Gallery</button>
+        </div>
+      </section>
+
+      <section id="statusLine" class="status-line" aria-live="polite"></section>
+
+      <section id="tableView" class="view-panel">
+        <div class="table-card">
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th>#</th>
+                <th>Song</th>
+                <th>Artist</th>
+                <th>Album</th>
+                <th>Genre</th>
+                <th>Likes</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+          </table>
+        </div>
+        <div class="pagination">
+          <button id="prevPageButton" type="button">Previous</button>
+          <span id="pageIndicator"></span>
+          <button id="nextPageButton" type="button">Next</button>
+        </div>
+      </section>
+
+      <section id="galleryView" class="view-panel hidden">
+        <div id="galleryGrid" class="gallery-grid"></div>
+        <div id="gallerySentinel" class="gallery-sentinel">Loading more songs...</div>
+      </section>
+    </main>
+  </div>
+
+  <template id="tableDetailTemplate">
+    <div class="detail-layout">
+      <img class="cover-art" alt="">
+      <div class="detail-copy">
+        <div class="detail-kicker-row">
+          <p class="detail-kicker"></p>
+          <span class="duration-pill"></span>
+        </div>
+        <h3></h3>
+        <p class="detail-meta"></p>
+        <audio controls preload="none"></audio>
+        <p class="detail-review"></p>
+      </div>
+    </div>
+  </template>
+
+  <script src="/js/app.js" defer></script>
+</body>
+</html>

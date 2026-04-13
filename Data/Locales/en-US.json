@@ -1,0 +1,20 @@
+{
+  "code": "en-US",
+  "displayName": "English (US)",
+  "bogusLocale": "en",
+  "singleLabel": "Single",
+  "genres": ["Indie Pop", "House", "Folk", "Synthwave", "Rock'n'Roll", "Neo Soul", "Country", "Electronic", "Dream Pop", "Alt Rock"],
+  "titleAdjectives": ["Midnight", "Golden", "Electric", "Restless", "Silver", "Velvet", "Bright", "Broken", "Neon", "Wild", "Lonely", "Tender"],
+  "titleNouns": ["Fire", "Boulevard", "Signal", "Summer", "Echo", "Gravity", "Satellite", "Heart", "Motor", "Mirage", "Shadow", "Harbor"],
+  "titleVerbs": ["Chase", "Hold", "Paint", "Catch", "Follow", "Lift", "Shake", "Guard"],
+  "titlePatterns": ["{adjective} {noun}", "{verb} the {noun}", "The {noun} Tonight", "{adjective} {adjective} {noun}"],
+  "albumDescriptors": ["Afterglow", "Late Night", "Open Road", "Northern", "Fever", "Soft Focus", "Golden Hour", "Lucky"],
+  "bandDescriptors": ["Static", "River", "Crystal", "Highway", "Shaded", "Echo", "Bluebird", "Feral"],
+  "bandNouns": ["Hearts", "Parade", "Motel", "Shapes", "Pilots", "Bloom", "Circuit", "Saints"],
+  "reviewOpenings": ["A polished little rush", "A sharp radio-ready spark", "A patient late-evening burner", "A chorus-first cut"],
+  "reviewTextures": ["glossy", "dusty", "hook-heavy", "warm", "fizzy", "cinematic", "lean", "bright"],
+  "reviewSentenceOneTemplates": ["{opening} that leans into {genre} with {texture} detail.", "{opening} where {genre} edges meet {texture} texture.", "{opening} built on {genre} energy and {texture} detail."],
+  "reviewSentenceTwoTemplates": ["The arrangement keeps {texture} momentum around {album}.", "The chorus circles {album} with {texture} momentum.", "The groove gives {album} a {texture} glow."],
+  "reviewClosings": ["It lands like a window-down drive after midnight.", "The hook sticks around long after the preview fades.", "It feels playful without losing its polish.", "The whole thing moves with easy confidence."],
+  "labelSuffixes": ["Records", "Sound", "Studios", "Collective"]
+}

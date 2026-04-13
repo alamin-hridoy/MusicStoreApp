@@ -1,0 +1,20 @@
+{
+  "code": "de-DE",
+  "displayName": "German (Germany)",
+  "bogusLocale": "de",
+  "singleLabel": "Single",
+  "genres": ["Indie-Pop", "House", "Folk", "Synthpop", "Rock", "Elektro", "Neue Welle", "Kammerpop", "Dream Pop", "Disco"],
+  "titleAdjectives": ["Mitternachts", "Goldene", "Leise", "Wilde", "Blaue", "Sanfte", "Neon", "Helle", "Schatten", "Samtige", "Kalte", "Warme"],
+  "titleNouns": ["Straße", "Signal", "Herz", "Sommer", "Hafen", "Regen", "Glanz", "Fieber", "Motor", "Spiegel", "Flimmern", "Wolke"],
+  "titleVerbs": ["Trag", "Such", "Fang", "Heb", "Halt", "Spiel", "Treib", "Ruf"],
+  "titlePatterns": ["{adjective} {noun}", "{verb} das {noun}", "{noun} bei Nacht", "{adjective} {noun} Herzen"],
+  "albumDescriptors": ["Später", "Leichter", "Nördlicher", "Offener", "Goldener", "Stiller", "Flimmernder", "Tiefe"],
+  "bandDescriptors": ["Leuchtende", "Ruhige", "Wilde", "Nordische", "Blaue", "Schwebende", "Feine", "Tiefe"],
+  "bandNouns": ["Maschinen", "Lichter", "Herzen", "Piloten", "Stimmen", "Wellen", "Fenster", "Drifter"],
+  "reviewOpenings": ["Ein klarer kleiner Sog", "Ein warmer Nachttrack", "Ein direkter Popfunke", "Ein ruhiger Ohrwurm mit Zug"],
+  "reviewTextures": ["schillernde", "warme", "feine", "breite", "tanzbare", "weiche", "helle", "dichte"],
+  "reviewSentenceOneTemplates": ["{opening}, der auf {genre} und {texture} Details setzt.", "{opening}, in dem {genre} auf {texture} Farben trifft.", "{opening}, getragen von {genre} und {texture} Kanten."],
+  "reviewSentenceTwoTemplates": ["Das Arrangement hält {texture} Bewegung um {album}.", "Der Refrain gibt {album} eine {texture} Spannung.", "Der Groove legt {album} in eine {texture} Linie."],
+  "reviewClosings": ["Der Refrain bleibt noch lange im Kopf.", "Das Stück fährt sanft und sicher nach vorn.", "Die Vorschau klingt sofort stimmig und eigen.", "Der Song wirkt leicht, aber nicht belanglos."],
+  "labelSuffixes": ["Records", "Ton", "Studio", "Kollektiv"]
+}
