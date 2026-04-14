@@ -64,8 +64,8 @@ app.MapGet("/api/covers/{locale}/{seed}/{index:int}", (
     int index,
     CoverArtService coverArtService) =>
 {
-    var svg = coverArtService.Generate(locale, seed, index);
-    return Results.Text(svg, "image/svg+xml");
+    var image = coverArtService.Generate(locale, seed, index);
+    return Results.File(image, "image/png");
 });
 
 app.MapGet("/api/audio/{locale}/{seed}/{index:int}", (
